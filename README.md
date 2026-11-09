@@ -39,14 +39,6 @@
 | [Baklava Ops Console](https://github.com/ihsanalapsi/baklava-ops-console) | B2B operations console on Trendyol's Baklava Design System, RTL and i18n | React Native, TypeScript |
 | [Booking System](https://github.com/ihsanalapsi/booking-system) | Full-stack consultation booking system, built as a technical assessment | Next.js, tRPC, Prisma, PostgreSQL |
 
-## Contributions
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ihsanalapsi/ihsanalapsi/output/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ihsanalapsi/ihsanalapsi/output/snake-light.svg">
-  <img alt="A snake eating this year's contribution graph" src="https://raw.githubusercontent.com/ihsanalapsi/ihsanalapsi/output/snake-dark.svg" width="100%">
-</picture>
-
 <p align="center"><sub>Istanbul · Arabic, Turkish, English · <a href="mailto:hello@ihsanalapsi.dev">hello@ihsanalapsi.dev</a></sub></p>
 
 <!-- The banner, the cards and the terminal are drawn by scripts/; a workflow refreshes the numbers, the articles and the snake every day. -->
