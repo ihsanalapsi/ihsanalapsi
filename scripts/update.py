@@ -91,6 +91,10 @@ def terminal(n, today):
         ("out", [("build   ", HI), ("web and mobile products".ljust(36), W74), ("SyMarket, Dietly", "#fff")]),
         ("out", [("break   ", HI), ("penetration tests and hardening".ljust(36), W74), ("Muhassan", "#fff")]),
         ("out", [("write   ", HI), ("practical guides for developers".ljust(36), W74), ("ihsanalapsi.dev", "#fff")]),
+        # Security research: a private HackerOne program, so the company stays unnamed.
+        ("cmd", "cat findings.txt"),
+        ("out", [("high 7.2    ", HI), ("subdomain takeover via a dangling DNS record", "#fff")]),
+        ("out", [("            private bug bounty program on HackerOne · triaged · fixed · rewarded", W74)]),
         ("cmd", "gh stats ihsanalapsi"),
         ("out", stats),
         ("end", None),

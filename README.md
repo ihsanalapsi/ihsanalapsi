@@ -5,10 +5,11 @@
   <a href="https://www.linkedin.com/in/ihsan-alapsi/"><img src="https://img.shields.io/badge/LinkedIn-1B1716?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://www.instagram.com/ihsanalapsi.dev"><img src="https://img.shields.io/badge/Instagram-1B1716?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
   <a href="https://www.youtube.com/@ihsan.alapsi"><img src="https://img.shields.io/badge/YouTube-1B1716?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"></a>
+  <a href="https://hackerone.com/ihsanalapsi"><img src="https://img.shields.io/badge/HackerOne-1B1716?style=for-the-badge&logo=hackerone&logoColor=white" alt="HackerOne"></a>
   <a href="mailto:hello@ihsanalapsi.dev"><img src="https://img.shields.io/badge/Email-1B1716?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email"></a>
 </p>
 
-<img src="assets/terminal.svg" width="100%" alt="Terminal. whoami: Ihsan Alapsi, Software Engineer and Penetration Tester, Istanbul. He builds web and mobile products (SyMarket, Dietly), runs penetration tests and hardening (Muhassan) and writes practical guides for developers (ihsanalapsi.dev). Live GitHub numbers below.">
+<img src="assets/terminal.svg" width="100%" alt="Terminal. whoami: Ihsan Alapsi, Software Engineer and Penetration Tester, Istanbul. He builds web and mobile products (SyMarket, Dietly), runs penetration tests and hardening (Muhassan) and writes practical guides for developers (ihsanalapsi.dev). Findings: a high-severity subdomain takeover in a private bug bounty program on HackerOne, triaged, fixed and rewarded. Live GitHub numbers below.">
 
 ## Projects
 
