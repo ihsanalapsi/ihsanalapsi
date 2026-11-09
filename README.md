@@ -1,88 +1,52 @@
-# Hey there! I'm Ihsan Alapsi 👋
+<a href="https://ihsanalapsi.dev"><img src="assets/banner.svg" width="100%" alt="Ihsan Alapsi, Software Engineer and Penetration Tester, ihsanalapsi.dev"></a>
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=4000&pause=1000&color=6366F1&width=500&lines=Full-Stack+%26+Mobile+Developer;Building+B2B+SaaS+%26+Marketplaces;React+Native+%7C+Next.js+%7C+TypeScript)
+<p align="center">
+  <a href="https://ihsanalapsi.dev"><img src="https://img.shields.io/badge/ihsanalapsi.dev-E90507?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"></a>
+  <a href="https://www.linkedin.com/in/ihsan-alapsi/"><img src="https://img.shields.io/badge/LinkedIn-1B1716?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.instagram.com/ihsanalapsi.dev"><img src="https://img.shields.io/badge/Instagram-1B1716?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
+  <a href="https://www.youtube.com/@ihsan.alapsi"><img src="https://img.shields.io/badge/YouTube-1B1716?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"></a>
+  <a href="mailto:hello@ihsanalapsi.dev"><img src="https://img.shields.io/badge/Email-1B1716?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email"></a>
+</p>
 
-![Profile Views](https://komarev.com/ghpvc/?username=ihsanalapsi&style=for-the-badge&color=6366f1)
+<img src="assets/terminal.svg" width="100%" alt="Terminal. whoami: Ihsan Alapsi, Software Engineer and Penetration Tester, Istanbul. He builds web and mobile products (SyMarket, Dietly), runs penetration tests and hardening (Muhassan) and writes practical guides for developers (ihsanalapsi.dev). Live GitHub numbers below.">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ihsan-alapsi)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ihsanalapsi@gmail.com)
-[![SyMarket](https://img.shields.io/badge/SyMarket-6366F1?style=for-the-badge&logo=safari&logoColor=white)](https://symarket.app)
+## Projects
 
----
+<a href="https://symarket.app"><img src="assets/card-symarket.svg" width="49%" alt="SyMarket: a Syrian marketplace that brings five markets into one app. Co-founder and lead engineer. React Native, Next.js, Supabase."></a>
+<a href="https://dietly.net"><img src="assets/card-dietly.svg" width="49%" alt="Dietly: a platform for nutritionists with patients, meal plans and AI tools. Co-founder. Next.js, Flutter, Supabase."></a>
+<a href="https://ihsanalapsi.dev/muhassan"><img src="assets/card-muhassan.svg" width="49%" alt="Muhassan: penetration testing and hardening before a platform goes live."></a>
+<a href="https://github.com/ihsanalapsi/Nexus-REC"><img src="assets/card-nexus-rec.svg" width="49%" alt="Nexus-REC: open-source automated recon and vulnerability assessment framework in Python, on PyPI."></a>
 
-## 🚀 About Me
+## Latest articles
 
-```typescript
-const ihsan = {
-  location: "Istanbul, Turkey 🇹🇷",
-  role: "Software Engineer & Product Developer",
-  focus: ["B2B SaaS", "Marketplace Platforms", "Mobile Apps"],
-  currentlyBuilding: "SyMarket - Syrian Marketplace Platform",
-  funFact: "I turn coffee into cross-platform apps ☕→📱"
-};
-```
+<!-- ARTICLES:START -->
+- [better-auth 1.7.16 security release: who is affected](https://ihsanalapsi.dev/articles/better-auth-1-7-16-security-release?lang=en) · Nov 9, 2026
+- [Chrome 157 security update: 213 fixes and how to update](https://ihsanalapsi.dev/articles/chrome-157-security-update?lang=en) · Nov 9, 2026
+- [OpenSSH 10.6p2 and the Alpine sshd password bypass](https://ihsanalapsi.dev/articles/openssh-musl-password-bypass?lang=en) · Nov 9, 2026
+- [Rails Active Storage flaw: who is exposed and what to do](https://ihsanalapsi.dev/articles/rails-active-storage-critical-file-write?lang=en) · Nov 9, 2026
+- [GitHub Actions blocks pull_request_target: check your repo](https://ihsanalapsi.dev/articles/github-pull-request-target-blocked?lang=en) · Nov 9, 2026
+<!-- ARTICLES:END -->
 
-- 🔭 Currently building **[SyMarket](https://symarket.app)** - B2B SaaS Marketplace
-- 🌱 Specializing in **React Native** & **Next.js**
-- 🤖 Leveraging **AI-assisted development** for faster delivery
-- 🎓 Software Engineering Graduate - Istanbul Topkapi University
-- 🌍 Languages: Arabic (Native), Turkish, English
+[All articles on ihsanalapsi.dev →](https://ihsanalapsi.dev/articles?lang=en)
 
----
+## Open source
 
-## 🛠️ Tech Stack
+| Project | What it does | Stack |
+|---|---|---|
+| [Nexus-REC](https://github.com/ihsanalapsi/Nexus-REC) | Automated recon and vulnerability assessment framework, on PyPI | Python |
+| [Secure Clinic API Suite](https://github.com/ihsanalapsi/secure-clinic-api-suite) | Healthcare API with a security audit and fixes for 18 critical OWASP vulnerabilities | TypeScript, Node.js, PostgreSQL, Docker |
+| [WhatsApp Number Extractor](https://github.com/ihsanalapsi/whatsapp-number-extractor) | Browser tool that exports the phone numbers of a WhatsApp group to CSV | TypeScript |
+| [Baklava Ops Console](https://github.com/ihsanalapsi/baklava-ops-console) | B2B operations console on Trendyol's Baklava Design System, RTL and i18n | React Native, TypeScript |
+| [Booking System](https://github.com/ihsanalapsi/booking-system) | Full-stack consultation booking system, built as a technical assessment | Next.js, tRPC, Prisma, PostgreSQL |
 
-### Frontend & Mobile
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+## Contributions
 
-### Backend & Database
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ihsanalapsi/ihsanalapsi/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ihsanalapsi/ihsanalapsi/output/snake-light.svg">
+  <img alt="A snake eating this year's contribution graph" src="https://raw.githubusercontent.com/ihsanalapsi/ihsanalapsi/output/snake-dark.svg" width="100%">
+</picture>
 
-### Styling & Tools
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+<p align="center"><sub>Istanbul · Arabic, Turkish, English · <a href="mailto:hello@ihsanalapsi.dev">hello@ihsanalapsi.dev</a></sub></p>
 
----
-
-## 📊 GitHub Stats
-
-
-<a href="https://github.com/ihsanalapsi">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=ihsanalapsi&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ihsanalapsi&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
-</a>
-
-  
-
----
-
-## 🏆 Featured Projects
-
-| Project | Description | Tech Stack |
-|---------|-------------|------------|
-| 🛒 [SyMarket](https://symarket.app) | B2B SaaS Marketplace Platform | React Native, Next.js, Supabase |
-| 📅 [Booking System](https://github.com/ihsanalapsi/booking-system) | Full-Stack Booking Widget | Next.js, tRPC, Prisma, PostgreSQL |
-| 🍯 [Baklava Ops Console](https://github.com/ihsanalapsi/baklava-ops-console) | B2B Operations Demo | React Native, Baklava Design System |
-| � [GlowWithShaimaa](https://glowwithshaimaa.fit) | Nutrition Consultation Platform | Next.js, Supabase, Tailwind |
-
----
-
-## 📈 Activity Graph
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ihsanalapsi&theme=tokyo-night&hide_border=true)
-
----
-
-## 💬 Let's Connect!
-
-![Connect](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1000&color=6366F1&width=450&lines=Open+for+collaborations+🤝;Let's+build+something+amazing+together!)
-
-📧 **ihsanalapsi@gmail.com** | 📍 **Istanbul, Turkey**
+<!-- The banner, the cards and the terminal are drawn by scripts/; a workflow refreshes the numbers, the articles and the snake every day. -->

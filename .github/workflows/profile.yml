@@ -1,0 +1,51 @@
+# Keeps the profile alive: the terminal card's numbers and the latest
+# articles (scripts/update.py), and the contribution snake (output branch).
+name: Profile refresh
+
+on:
+  schedule:
+    - cron: "17 4 * * *" # every day, 07:17 Istanbul
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["scripts/**", ".github/workflows/**"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-refresh
+  cancel-in-progress: false
+
+jobs:
+  numbers-and-articles:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Refresh the terminal card and the latest articles
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/update.py
+      - name: Commit only when something changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/terminal.svg README.md
+          git diff --cached --quiet || { git commit -m "chore: refresh profile numbers and articles" && git push; }
+
+  snake:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?palette=github-dark&color_snake=#E90507&color_dots=#161b22,#470C17,#810100,#E90507,#FF3B45
+            dist/snake-light.svg?color_snake=#E90507&color_dots=#ebedf0,#F6D0D1,#F08A8C,#E90507,#B00406
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "chore: refresh contribution snake"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
